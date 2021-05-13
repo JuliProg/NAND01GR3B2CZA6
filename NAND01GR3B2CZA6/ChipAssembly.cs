@@ -1,7 +1,7 @@
 using NAND_Prog;
 using System.ComponentModel.Composition;
 
-namespace ONFY_compliant_chip
+namespace NAND01GR3B2CZA6
 {
     /*
      use the design :
@@ -35,18 +35,18 @@ namespace ONFY_compliant_chip
 
         ChipAssembly()
         {
-            myChip.devManuf = "Template";
-            myChip.name = "ONFY_compliant_chip";
-            myChip.chipID = "EMPTY";                                 // device ID 
+            myChip.devManuf = "ST";
+            myChip.name = "NAND01GR3B2CZA6";
+            myChip.chipID = "20-A1-00-15";                                 // device ID 
 
             myChip.width = Organization.x8;                          // chip width (x8 or x16)
             myChip.bytesPP = 2048;                                   // page size in bytes
             myChip.spareBytesPP = 64;                                // size Spare Area in bytes
             myChip.pagesPB = 64;                                     // the number of pages per block 
-            myChip.bloksPLUN = 4096;                                 // number of blocks in CE 
+            myChip.bloksPLUN = 1024;                                 // number of blocks in CE 
             myChip.LUNs = 1;                                         // the amount of CE in the chip
             myChip.colAdrCycles = 2;                                 // cycles for column addressing
-            myChip.rowAdrCycles = 3;                                 // cycles for row addressing 
+            myChip.rowAdrCycles = 2;                                 // cycles for row addressing 
             myChip.vcc = Vcc.v3_3;                                   // supply voltage
             (myChip as ChipPrototype_v1).EccBits = 1;                // required Ecc bits for each 512 bytes
              

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ONFY_compliant_chip", "ONFY_compliant_chip\ONFY_compliant_chip.csproj", "{3E31FBFB-66A4-46D2-B211-1360CF8DE28F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAND01GR3B2CZA6", "NAND01GR3B2CZA6\NAND01GR3B2CZA6.csproj", "{3E31FBFB-66A4-46D2-B211-1360CF8DE28F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

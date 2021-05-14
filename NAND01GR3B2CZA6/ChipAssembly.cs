@@ -47,7 +47,7 @@ namespace NAND01GR3B2CZA6
             myChip.LUNs = 1;                                         // the amount of CE in the chip
             myChip.colAdrCycles = 2;                                 // cycles for column addressing
             myChip.rowAdrCycles = 2;                                 // cycles for row addressing 
-            myChip.vcc = Vcc.v3_3;                                   // supply voltage
+            myChip.vcc = Vcc.v1_8;                                   // supply voltage
             (myChip as ChipPrototype_v1).EccBits = 1;                // required Ecc bits for each 512 bytes
              
         #endregion
